@@ -2,7 +2,7 @@
 
 int main() {
 
-	int sum = 2; //?? ? 2? ?? ???.
+	int sum = 2; //Prime Number 2.
 
 
 	for (int i = 3; i <= 100; i++) {
