@@ -2,7 +2,8 @@
 
 int main() {
 
-	int sum = 2;
+	int sum = 2; //?? ? 2? ?? ???.
+
 
 	for (int i = 3; i <= 100; i++) {
 		for (int j = 2; j < i; j++) {
