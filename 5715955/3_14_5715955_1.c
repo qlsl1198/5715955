@@ -4,7 +4,7 @@
 int main() {
 
 	int sum = 2; //Prime Number 2.
-	clock_t start, stop;
+	clock_t start, stop; //start value, end value
 	double duration;
 
 	start = clock();
@@ -25,7 +25,7 @@ int main() {
 
 	printf("%d\n", sum);
 	stop = clock();
-	duration = (double)(stop - start) / CLOCKS_PER_SEC;
+	duration = (double)(stop - start) / CLOCKS_PER_SEC; //convert to time
 	printf("%f\n", duration);
 	return 0;
 }
