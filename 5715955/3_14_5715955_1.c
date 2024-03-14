@@ -25,7 +25,7 @@ int main() {
 
 	printf("%d\n", sum);
 	stop = clock();
-	duration = (double)(stop - start) / CLOCKS_PER_SEC; //convert to time
+	duration = (double)(stop - start) / CLOCKS_PER_SEC; //convert to time.
 	printf("%f\n", duration);
 	return 0;
 }
